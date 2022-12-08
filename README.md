@@ -23,5 +23,7 @@ Each directory contains the following:
 ![System health](https://github.com/MiguelALF12/it-automation-python-google-course/blob/main/results/healt_systems_with_cron.png)
 
 
+#### Note
+All the modules hosted in requirements.txt file are not used, you just need to pay attention on the imports. All that long list is because the venv inherited the globally installed packages.
 
 ---> Doubts on how this works, contact me: mailto:miguel.lopez@utp.edu.co
