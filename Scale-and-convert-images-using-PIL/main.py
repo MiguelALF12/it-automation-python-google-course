@@ -11,6 +11,7 @@ def imgProcessing():
             # are indeed files
             if not entry.name.startswith('.') and entry.is_file():
                 imgName = entry.name
+                print(imgName)
                 img = Image.open(path + '/' + imgName)
                 img.convert('RGB').rotate(90).resize((128, 128)).save(testing+imgName + ".jpeg")
 
